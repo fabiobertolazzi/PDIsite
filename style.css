@@ -1,0 +1,251 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+  
+/*   .cabecalho-imagem {
+    border-radius:50px;
+    height: 72px;
+  } */
+
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+  }
+  
+  .conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 48px;
+
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+  }
+
+  .conteudo-quemsou{
+     padding: 48px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     gap: 50px;
+  }
+
+  .conteudo-quemsou-escrito {
+    font-size: 18px;
+  }
+  
+  .conteudo-quemsou-imagem {
+    height: 430px;
+    border-radius: 5%;
+  }
+
+  .conteudo-historico-profissional{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  
+  .conteudo-historico-profissional-escrito{
+    font-size: 18px;
+}
+
+.conteudo-historico-profissional-imagem{
+    height: 200px;
+    border-radius: 5%;
+  }
+
+
+  .conteudo-formacao-academica-lavoisier{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 130px;
+  }
+
+  .conteudo-formacao-academica-imagem-lavoisier{
+    height: 100px;
+    border-radius: 5%;
+  }
+
+  .conteudo-formacao-academica-sjudas{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+  .conteudo-formacao-academica-imagem-sjudas{
+    height: 50px;
+    border-radius: 5%;
+  }
+
+  .conteudo-formacao-academica-ipt{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+  .conteudo-formacao-academica-imagem-ipt{
+    height: 100px;
+    border-radius: 5%;
+  }
+
+  .conteudo-life-long-learning-certificacoes{
+/*     padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px; */
+  }
+
+
+  .conteudo-lifelonglearning-livros{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+
+  .conteudo-lifelonglearning-livros-escrito{
+    font-size: 18px;
+  }
+
+  .conteudo-lifelonglearning-imagem-livros{
+    height: 500px;
+    border-radius: 5%;
+  }
+
+
+  .conteudo-lifelonglearning-podcast{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+
+  .conteudo-lifelonglearning-podcast-escrito{
+    font-size: 18px;
+  }
+
+  .conteudo-lifelonglearning-imagem-podcast{
+    height: 100px;
+    border-radius: 5%;
+  }
+
+
+  a.hyperlink:link {
+    color:#ff0000;
+    text-decoration:none;
+  }
+  a.hyperlink:visited {
+    color:#999999;
+    text-decoration:none;
+  }
+  a.hyperlink:hover {
+    color:#000000;
+    text-decoration:underline;
+  }
+  a.hyperlink:active {
+    color:#00ff00;
+    text-decoration:underline;
+    background-color:#000000;
+  }
+
+  .conteudo-lifelonglearning-treinamentos{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+
+  .conteudo-lifelonglearning-treinamentos-escrito{
+    font-size: 18px;
+  }
+
+  .conteudo-lifelonglearning-imagem-treinamentos{
+    height: 100px;
+    border-radius: 5%;
+  }
+
+
+  .conteudo-objetivo{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+
+  .conteudo-objetivo-escrito{
+    font-size: 18px;
+  }
+
+  .conteudo-objetivo-imagem{
+    height: 100px;
+    border-radius: 5%;
+  }
+
+
+
+
+  .rodape {
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.rodape-imagem{
+  height: 50px;
+  border-radius: 5%;
+}
